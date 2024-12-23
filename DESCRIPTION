@@ -1,0 +1,20 @@
+Package: testpackage
+Title: An example package
+Version: 0.1.0
+Authors@R: 
+    person("Colt", "Holley", role = c("aut", "cre", "maint"), email = "colt.holley@dfw.wa.gov")
+Author:
+  Colt Holley [aut, cre]
+Maintainer: Colt Holley <colt.holley@dfw.wa.gov>
+Description: A minimal example package used to learn about the process of package development.
+License: GPL-3 | file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    tidyverse
+Imports: 
+    cli
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
